@@ -6,10 +6,10 @@ function Header() {
     return (
         <header className={styles.header}>
         <div className={styles.contents}>
+       
 
-        {/* 로고 사이즈 조절하기ㅠㅠ */}
        <h1 id="logo">
-            <a href="#"><img src="./images/logo192.png"/></a> 
+            <a href="#"><img src="./images/logo50.png"/></a> 
             </h1>
                     <nav className={styles.navigation}>
                         <ul>
@@ -20,7 +20,6 @@ function Header() {
                     </nav>
 
             </div>
-
         </header>
 
 

@@ -1,16 +1,18 @@
 .header{
-
+    display: flex;
+    justify-content: space-between;
     background: #f6f5ef;
     border-bottom: 1px solid #e5e5e5;
     height: 69px;
-    left: 0;
+    left: 0px ;
     position: fixed;
     top: 0;
     width: 605px;
     z-index: 20;
    
-
 }
+
+
 
 .contents {
 display: flex;
@@ -21,9 +23,6 @@ padding: 5px 14px;
 align-items: center;
 justify-content: space-between;
 }
-
-
-    
 
 
 .navigation ul{
