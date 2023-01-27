@@ -1,11 +1,12 @@
 .header{
 
-    position : fixed;
-    left : 0;
-    top: 0;
-    width: 100%;
-    height: 80px;
-    background-color: beige;
+    
+ position : fixed;
+ left : 0;
+ top: 0;
+ width: 100%;
+ height: 80px;
+ background-color: beige;
 
 }
 
@@ -23,6 +24,7 @@ justify-content: space-between;
     display: flex;
     list-style: none;
 }
+
 .navigation li{
   
         display: inline;
