@@ -1,4 +1,5 @@
 import React from 'react';
+
 import styles from '../layouts/Header.module.css';
 
 function Header() {
@@ -7,9 +8,8 @@ function Header() {
         <header className={styles.header}>
         <div className={styles.contents}>
        
-
-       <h1 id="logo">
-            <a href="#"><img src="./images/logo50.png"/></a> 
+       <h1 class="logo">
+            <a href="http://localhost:3000"><img src="./images/logo50.png" alt= " "/></a>
             </h1>
                     <nav className={styles.navigation}>
                         <ul>
@@ -21,7 +21,6 @@ function Header() {
 
             </div>
         </header>
-
 
     );
 }

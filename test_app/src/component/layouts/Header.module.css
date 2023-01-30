@@ -3,11 +3,11 @@
     justify-content: space-between;
     background: #f6f5ef;
     border-bottom: 1px solid #e5e5e5;
-    height: 69px;
+    height: 80px;
     left: 0px ;
     position: fixed;
     top: 0;
-    width: 605px;
+    width: 100%;
     z-index: 20;
    
 }
