@@ -1,2 +1,7 @@
-# kdt_react_test
-react_test_app
+>## KDT_MINI_PROJECT 1
+
+* HTML
+* CSS
+* JAVASCRIPT
+* REACT
+* REACT-NATIVE
