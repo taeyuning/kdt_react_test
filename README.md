@@ -3,5 +3,5 @@
 * HTML
 * CSS
 * JAVASCRIPT
-* REACT
-* REACT-NATIVE
+* REACT.js
+
