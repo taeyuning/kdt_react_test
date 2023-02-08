@@ -1,0 +1,18 @@
+header {
+    position: fixed;
+    top: 0; left: 0;
+    height: 100px;
+    width: 100%;
+    background-color: #ddd;
+  }
+  section {
+    padding-top: 150px; padding-bottom: 150px;
+  }
+  footer {
+    position: fixed;
+    bottom: 0; left: 0;
+    height: 100px;
+    width: 100%;
+    background-color: #ddd;
+  }
+  li { margin:100px 0 100px 0;}
