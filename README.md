@@ -5,7 +5,7 @@
 * JAVASCRIPT
 * REACT.js
 
-- npx create-react-app
+> npx create-react-app
 - npm install  react-router-dom
 - npm install styled-components
 - npm install recoil
