@@ -15,4 +15,4 @@
 - 2/8/wed 요구사항정리, 폴더구성, 헤더 시작
 
 > 일지
-- https://www.notion.so/MINI-PROJECT-1-2-8-2-14-0079fbc803aa4387886eb0b323a65e92
+
