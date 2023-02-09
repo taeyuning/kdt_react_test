@@ -1,31 +1,18 @@
-.headertop {
+.header {
     position: fixed;
-    top: 0; left: 0;
-    height: 30px;
+    top: 0px; 
+    left: 0;
+    height: 40px;
     width: 100%;
-    background-color: #ddd;
+    background-color: #d6a9a9;
   }
 
   .contents {
     display: flex;
     width: 96%;
-    height: 100%;
-    margin:0 auto;
-    padding: 5px 14px;
+    max-width: 1100px;
+    height:100%;
+    margin: 0 auto;
     align-items: center;
     justify-content: space-between;
-    }
-    
-    
-    .navigation ul{
-        display: flex;
-        list-style: none;
-    }
-    
-    .navigation li{
-      
-            display: inline;
-            margin-top: 30px;
-            margin-right: 10px;
-       
-    }
+  }

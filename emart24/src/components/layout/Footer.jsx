@@ -5,10 +5,7 @@ function Footer() {
 
 return (  
 <footer className={styles.footer}>
-<div className={styles.contents}>
-<h1 className={styles.footer}>
-</h1>
-</div>
+<h1> 일단 푸터임</h1>
 </footer>
 
     ); 
