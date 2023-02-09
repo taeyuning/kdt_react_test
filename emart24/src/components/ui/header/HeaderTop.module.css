@@ -1,8 +1,8 @@
-.header {
+.headertop {
     position: fixed;
     top: 0px; 
     left: 0;
-    height: 50px;
+    height: 70px;
     width: 100%;
     background-color: #ffffff;
   }
@@ -12,15 +12,17 @@
     width: 96%;
     max-width: 1100px;
     height:100%;
-    margin: 0 auto;
+    margin: 0px  0 15px 1400px;
+    padding: 0 auto;
     align-items: center;
     justify-content: space-between;
-    font-size: small;
+    font-size: small;    
   }
 
   .navigation ul{
     display: flex;
     list-style: none;
+    
 }
 
 .navigation li{
@@ -28,5 +30,6 @@
         display: inline;
         margin-top: 30px;
         margin-right: 10px;
+
    
 }

@@ -1,11 +1,12 @@
 import React from 'react';
-import styles from '../layout/Footer.module.css';
+import style from '../layout/Footer.module.css';
 
 function Footer() {
 
 return (  
-<footer className={styles.footer}>
-<ul> </ul>
+<footer className={style.footer}>
+<ul> 푸터임 푸터임 </ul>
+ {/* 내용 추가하기 */}
 </footer>
 
     ); 

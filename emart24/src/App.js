@@ -1,7 +1,10 @@
 
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { RecoilRoot } from 'recoil';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+
+
 
 import Header from './components/layout/Header';
 import Footer from './components/layout/Footer';
@@ -17,7 +20,6 @@ import Store from './components/page/Store';
 
 function App() {
   return (
-    <RecoilRoot>
       <div className='appWrap'>
         <BrowserRouter>
           <Header />
@@ -32,7 +34,6 @@ function App() {
           <Footer />
         </BrowserRouter>
       </div>
-    </RecoilRoot>
   );
 }
 export default App;

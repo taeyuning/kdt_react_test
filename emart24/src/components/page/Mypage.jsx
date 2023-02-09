@@ -1,11 +1,21 @@
 import React from 'react';
+import style from '../page/Mypage.module.css';
+
+// import Card from 'react-bootstrap/Card';
+
+
 
 function Mypage() {
-    return ( 
-        <div>
-        <h1> 마이페이지 </h1>
-        </div>
-     );
+    return (
+
+        <section className={style.mypagesection}>
+
+            <div classname={style.box1}>
+                
+            </div>
+
+        </section>
+    );
 }
 
 export default Mypage;
