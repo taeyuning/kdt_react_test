@@ -5,8 +5,6 @@ import HeaderBottom from '../ui/header/HeaderBottom';
 import HeaderTop from '../ui/header/HeaderTop';
 
 
-// import style from './Header.module.css';
-
 function Header() {
 
   return ( 

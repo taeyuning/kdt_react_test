@@ -1,16 +1,17 @@
 import React from 'react';
-//import MainSection from '../ui/main/MainSection';
+import MainBanner from '../ui/main/MainBanner.jsx';
 
-import style from '../page/Main.module.css';
+//import style from '../page/Main.module.css';
 
 
 function Main() {
-    return (
-        <section className={style.mainSection}>
 
+
+    
+    return (
+<></>
+            //<MainBanner /> 
        
-            {/* <MainSection /> */}
-            </section>
     );
 }
 
