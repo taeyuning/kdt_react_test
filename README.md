@@ -5,19 +5,19 @@
 * JAVASCRIPT
 * REACT.js
 
-<<<<<<< HEAD
-- 2/8/wed 요구사항정리, 폴더구성, 헤더 시작
-
 =======
 > 설치
 - npx create-react-app
 - npm install  react-router-dom
 - npm install styled-components
 - npm install recoil
+- npm i recoil-persist
+- npm install smooth-scrollbar
+
 
 > 회고
 - 2/8/wed 요구사항정리, 폴더구성, 헤더 시작
+- 2/9/thu 헤더 마무리, 페이지 연결, 마이페이지 시작
 
 > 일지
 
->>>>>>> 67f5426b4a194cb543f0cdc04da7a15e57a5b985
