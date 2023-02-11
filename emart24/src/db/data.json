@@ -35,7 +35,7 @@
       },
       {
         "id" : 4,
-        "name" : "[린트]엑설런스 다크 99% 50g",
+        "name" : "린트 엑설런스 다크 99% 50g",
         "thumbnail" : "https://sitem.ssgcdn.com/50/75/43/item/1000029437550_i1_1100.jpg",
         "price" : 6860,
         "discount" : 0,
@@ -79,7 +79,7 @@
       },
       {
         "id" : 8,
-        "name" : "[쇼게튼]다크초콜릿 위드 코코아 헤이즐넛 100g",
+        "name" : " 쇼게튼 다크초콜릿 위드 코코아 헤이즐넛 100g",
         "thumbnail" : "https://sitem.ssgcdn.com/60/71/07/item/2097001077160_i1_1100.jpg",
         "price" : 3200,
         "discount" : 0,
@@ -115,6 +115,8 @@
       {
         "id" : 1,
         "name" : "1+1 발렌타인 이벤트",
+        "thumbnail": "https://emart24.co.kr/image/NTAwOA==",
+        "date":"2023.02.08~2023.02.19",
         "eventProductList" : [ 1,2,3,4,5,6,7,8,9,10 ]
       }
   

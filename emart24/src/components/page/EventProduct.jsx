@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 function EventProduct() { 
 
-        // product data 가져오기
+        // products data 가져오기
         const [productList, setProductList] = useState();
         
         useEffect(() => {
@@ -16,28 +16,35 @@ function EventProduct() {
           }) 
         }, []);
       
-       //데이터 적용?하기
+       
         return(
           <section>
+
+            <h2 className={style.title}>2월 행사 상품</h2>
+            <h3 className={style.text}>EMART24가 준비한 이달의 행사상품을 만나보세요.</h3>
             <div className={style.productWrap}>
-            <h2>이마트24 상품리스트</h2>
+            <div className={style.container}>
             {productList && productList.map(prod => 
-                      <div className={style.thumbnail}>
-                      <div id="container">
-                          <img src={prod.thumbnail} alt="product01" />
-                      </div>
-                        <div className={style.info}>
-                          <p className="product_title">{prod.name}</p>
-                          <p className="product_price">{prod.price}</p>
-                          <p className="product_option"></p>
-                      </div>
-                    </div>
+
+           <div><div className={style.box}>
+                <div className={style.thumbnail}>
+                  <div id="container">
+                    <img src={prod.thumbnail} alt="product01" />
+                  </div>
+                  </div>
+                  </div>
+              
+              <div className={style.info}>
+                  <p className="product_title">{prod.name}</p>
+                  <p className="product_price">{prod.price}원</p>
+                  {/* <p className="product_brand">{prod.brand}</p> */}
+                </div>
+                </div>      
               )}
                </div>
+               </div>
           </section>
-      
         )
-      
       }
       
 export default EventProduct;

@@ -5,19 +5,26 @@ import style from '../main/MainBanner.module.css';
 
 function MainBanner() {
   return (
-
-
-    <div className={style.mainbanner}>
-      {/* 움직이게 만들고 싶지만 일단 그냥 있기 */}
-
-      <div className={style.flexbox}>
-        <img src={require("../../../img/mainsection1.png")} alt=" " />
-        <img src={require("../../../img/mainsection2.png")} alt=" " />
-        <img src={require("../../../img/mainsection3.png")} alt=" " />
-      </div>
+<div className={style.bannerWrap}>
+<div className={style.slider}>
+    <input type="radio" name="slide" id="slide1" checked/>
+    <input type="radio" name="slide" id="slide2"/>
+    <input type="radio" name="slide" id="slide3"/>
+    <ul id="imgholder" className={style.img}>
+        <li><img src="../../../img/banner1.png"/></li>
+        <li><img src="../../../img/banner2.png"/></li>
+        <li><img src="../../../img/banner3.png"/></li> 
+    </ul>
+    <div className={style.bullet}>
+        <label for="slide1">&nbsp;</label>
+        <label for="slide2">&nbsp;</label>
+        <label for="slide3">&nbsp;</label>
     </div>
-
+    
+</div>
+</div>
   );
 
 }
+
 export default MainBanner;

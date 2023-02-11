@@ -1,9 +1,37 @@
-  footer {
+  .footer {
     margin-top: 20%;
     position: flex;
     bottom: 0;
     left: 0;
-    height: 180px;
+    height: 250px;
     width: 100%;
     background-color: #ddd;
+  }
+
+  .footer h1{
+    margin: 0px 0 0px 200px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: rgb(60, 59, 59);
+  }
+
+  .footer h2{
+    margin: 20px 0 0px 200px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: rgb(60, 59, 59);
+  }
+
+  .footer h3{
+    margin: 20px 0 0px 200px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: rgb(60, 59, 59);
+  }
+
+  .footer h4{
+    margin: 20px 0 0px 200px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: rgb(60, 59, 59);
   }
