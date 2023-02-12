@@ -11,6 +11,7 @@ import Footer from './components/layout/Footer';
 import Cart from './components/page/Cart';
 import Event from './components/page/Event';
 import EventProduct from './components/page/EventProduct';
+import EventProductDetail from './components/page/EventProductDetail';
 import Main from './components/page/Main';
 import Mypage from './components/page/Mypage';
 import Store from './components/page/Store';
@@ -26,6 +27,7 @@ function App() {
           <Route path='/cart' element={<Cart />} />
           <Route path='/event' element={<Event />} />
           <Route path='/eventproduct' element={<EventProduct />} />
+          <Route path='/eventproductdetail/:id' element={<EventProductDetail />} />
           <Route path='/mypage' element={<Mypage />} />
           <Route path='/store' element={<Store />} />
         </Routes>

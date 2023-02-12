@@ -4,46 +4,51 @@
 
 
 .slider{
-  width: 640px;
-  height: 480px;
+  background-color: aquamarine;
+  width: 670px;
+  height: 320px;
   position: relative;
-  margin: 0 auto;
+  margin:  0 0 0 0px;
+  padding: 0;
+  border-radius: 20px;
   overflow: hidden;
 }
-.slider input[type=radio]{
+
+.slider input {
   display: none;
 }
 
-.ul img{
+.img{
+  position: absolute;
   padding: 0;
   margin: 0;
 }
-.ul li{
+.img li{
   position: absolute;
-  left: 640px;
+  left: 0px;
   transition-delay: 1s;
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-.bullets{
+.bullet {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
   bottom: 20px;
   z-index: 2;
 }
-.bullet label{
+.bullet label {
   display: inline-block;
   border-radius: 50%;
   background-color: rgba(0,0,0,0.55);
-  width: 20px;
-  height: 20px;
+  width: 10px;
+  height: 10px;
   cursor: pointer;
 }
 
-.slider input[type=radio]:nth-child(1):checked~.bullets>label:nth-child(1){
+.bullet label {
   background-color: #fff;
 }
 .slider input[type=radio]:nth-child(2):checked~.bullets>label:nth-child(2){
@@ -52,27 +57,23 @@
 .slider input[type=radio]:nth-child(3):checked~.bullets>label:nth-child(3){
   background-color: #fff;
 }
-.slider input[type=radio]:nth-child(4):checked~.bullets>label:nth-child(4){
-  background-color: #fff;
-}
 
-.slider input[type=radio]:nth-child(1):checked~ul.imgs>li:nth-child(1){
+
+.slider input ul img>li {
   left: 0;
   transition: 0.5s;
   z-index:1;
 }
+
 .slider input[type=radio]:nth-child(2):checked~ul.imgs>li:nth-child(2){
   left: 0;
   transition: 0.5s;
   z-index:1;
 }
+
 .slider input[type=radio]:nth-child(3):checked~ul.imgs>li:nth-child(3){
   left: 0;
   transition: 0.5s;
   z-index:1;
 }
-.slider input[type=radio]:nth-child(4):checked~ul.imgs>li:nth-child(4){
-  left: 0;
-  transition: 0.5s;
-  z-index:1;
-}
+

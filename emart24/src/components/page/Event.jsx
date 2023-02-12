@@ -5,14 +5,14 @@ import { Link } from 'react-router-dom';
 function Event() { 
 
         // product data 가져오기
-        const [productList, setProductList] = useState();
+        const [eventList, setEventList] = useState();
         
         useEffect(() => {
           fetch("http://localhost:3001/events")
           .then(res => res.json())
           .then(data => {
             console.log(data);
-            setProductList(data);
+            setEventList(data);
           }) 
         }, []);
       
@@ -21,7 +21,7 @@ function Event() {
               <div className={style.eventWrap}>
               <h2>2월 이벤트</h2>
               <h3>EMART24가 준비한 이달의 행사상품을 만나보세요.</h3>
-              {productList && productList.map(prod => 
+              {eventList && eventList.map(prod => 
                         <div className={style.thumbnail}>
                         <div id="container">
                             <img src={prod.thumbnail} alt="event01" />
