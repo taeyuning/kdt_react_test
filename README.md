@@ -12,7 +12,7 @@
 - npm install styled-components
 - npm install recoil
 - npm i recoil-persist
-- npm install smooth-scrollbar
+
 
 
 > 
