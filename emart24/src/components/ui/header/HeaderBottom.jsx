@@ -1,30 +1,35 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+// import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 import style from './HeaderBottom.module.css';
 
-
-
 function HeaderBottom() {
 
-  <header className= {style.Headerbottom}>
-    <div className={style.headerWrap}>
-      <h1 className={style.logo}>
-        <Link to={'/'}>
-         <img src='./assets/img/logo.png' alt='logo' />
-        </Link>
-        </h1>
+  return (
+    <div className={style.header}>
+      <div className={style.container}>
+        <div className={style.logo}>
+          <Link to="/">
+            <img src={require("../../../img/logo.140.png")} alt=" " />
+          </Link>
+        </div>
+        <nav className={style.navigation}>
+          <ul className={style.ul}>
+            <li className={style.li}>
+              <li> <Link to='/mypage'> 마이 페이지</Link></li>
+              <li> <Link to='/cart'> 장바구니 </Link></li>
+              <li> <Link to='/event'> 이벤트 </Link></li>
+              <li> <Link to='/eventproduct'> 행사 상품</Link></li>
+              <li> <Link to='/store'> 매장 찾기 </Link></li>
+            </li>
+          </ul>
+        </nav>
+      </div>
 
-        <nav className={styles.navigation}>
-                  <ul>
-                      <li> 마이 페이지 </li>
-                      <li> 장바구니  </li>
-                      <li> 이벤트  </li>
-                      <li> 행사 상품 </li>
-                      <li> 매장 찾기  </li>
-                  </ul>
-              </nav>
-              </div>
-  </header>
+    </div>
+
+  )
 }
 
 export default HeaderBottom;

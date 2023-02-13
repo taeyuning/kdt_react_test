@@ -1,0 +1,79 @@
+.bannerWrap{
+  margin: 250px 0 0 0;
+}
+
+
+.slider{
+  background-color: aquamarine;
+  width: 670px;
+  height: 320px;
+  position: relative;
+  margin:  0 0 0 0px;
+  padding: 0;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.slider input {
+  display: none;
+}
+
+.img{
+  position: absolute;
+  padding: 0;
+  margin: 0;
+}
+.img li{
+  position: absolute;
+  left: 0px;
+  transition-delay: 1s;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.bullet {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 20px;
+  z-index: 2;
+}
+.bullet label {
+  display: inline-block;
+  border-radius: 50%;
+  background-color: rgba(0,0,0,0.55);
+  width: 10px;
+  height: 10px;
+  cursor: pointer;
+}
+
+.bullet label {
+  background-color: #fff;
+}
+.slider input[type=radio]:nth-child(2):checked~.bullets>label:nth-child(2){
+  background-color: #fff;
+}
+.slider input[type=radio]:nth-child(3):checked~.bullets>label:nth-child(3){
+  background-color: #fff;
+}
+
+
+.slider input ul img>li {
+  left: 0;
+  transition: 0.5s;
+  z-index:1;
+}
+
+.slider input[type=radio]:nth-child(2):checked~ul.imgs>li:nth-child(2){
+  left: 0;
+  transition: 0.5s;
+  z-index:1;
+}
+
+.slider input[type=radio]:nth-child(3):checked~ul.imgs>li:nth-child(3){
+  left: 0;
+  transition: 0.5s;
+  z-index:1;
+}
+
