@@ -17,26 +17,12 @@ function EventProductDetail() {
       });
   }, []);
 
-//물어보기//
-  return (
-        <div>
 
-           {productDetail && productDetail.map((prod) => (
-           <div className={style.productWrap}>
-           <div className={style.thumbnail}>
-            <img src={prod.thumbnail} alt="product 01" />
-            </div>
-            <div className={style.info}>
-            <h2>{prod.name}</h2>
-            <p>{prod.price}원</p>
-            <p>{prod.category}</p>
-            <p>{prod.brand}</p>
-            <p>{prod.description}</p>
-            </div>
-            </div>
-            ))}
-            
-               </div>
+  return (
+    <>{
+      productDetail && productDetail.name
+  }</>
+
         
         );
         }
