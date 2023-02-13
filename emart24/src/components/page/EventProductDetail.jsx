@@ -15,17 +15,21 @@ function EventProductDetail() {
         console.log(data);
         setProductDetail(data);
       });
-  }, []);
+  }, [id]);
 
 
   return (
-    <>{
-      productDetail && productDetail.name
-  }</>
-
-        
-        );
-        }
+    <>
+    {
+      productDetail && 
+      <div className={style.productDetailWrap}>
+        <p>{productDetail.name}</p>
+        <img src={productDetail.thumbnail} alt="product01" />
+      </div>
+    }
+    </>
+  );
+}
       
    
 
