@@ -21,7 +21,6 @@ function App() {
   return (
     <BrowserRouter>
       <Header />
-      <div className='mainPage'>
         <Routes>
           <Route path='/' element={<Main />} />
           <Route path='/cart' element={<Cart />} />
@@ -31,7 +30,6 @@ function App() {
           <Route path='/mypage' element={<Mypage />} />
           <Route path='/store' element={<Store />} />
         </Routes>
-      </div>
       <Footer />
     </BrowserRouter>
   );

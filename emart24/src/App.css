@@ -3,8 +3,23 @@ body {
     padding: 0;
 }
 
-.mainPage {
-    width: 85%;
-    margin: 10px auto;
+header {
+    width: 100%;
+    padding: 10px 0;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    position: fixed;
+    top: 0;
+    z-index: 100;
 }
 
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    width: 100%;
+    margin-top: 50px;
+    background-color: #ddd;
+}

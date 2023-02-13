@@ -7,14 +7,13 @@ import style from '../page/Main.module.css';
 
 function Main() {
     return ( 
-            <>
+        <>
             <div className={style.mainWrap}>
             <MainBanner />
             <Login />
             </div>
         </>
+    );
+}
 
-                );
-                }
-
-                export default Main;
+export default Main;
