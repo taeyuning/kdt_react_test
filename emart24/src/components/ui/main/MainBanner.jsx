@@ -11,12 +11,12 @@ function MainBanner() {
     <input type="radio" name="slide" id="slide2"/>
     <input type="radio" name="slide" id="slide3"/>
 
-    <ul id="imgholder" className={style.img}>
-        <li><img src="https://emart24.co.kr/image/NTAwOA==" alt=''/></li>
-        <li><img src="https://emart24.co.kr/image/NDk3Mg==" alt=''/></li>
-        <li><img src="https://emart24.co.kr/image/NDg1OA==" alt=''/></li> 
+    <ul id="imgholder" className="imgs">
+        <li><img src="https://emart24.co.kr/image/NTA3OQ==" alt=''/></li>
+        {/* <li><img src="https://emart24.co.kr/image/NTAwOA==" alt=''/></li>
+        <li><img src="https://emart24.co.kr/image/NDg1OA==" alt=''/></li>  */}
     </ul>
-    <div className={style.bullet}>
+    <div class="bullets">
         <label for="slide1">&nbsp;</label>
         <label for="slide2">&nbsp;</label>
         <label for="slide3">&nbsp;</label>

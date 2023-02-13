@@ -21,17 +21,22 @@ function Event() {
               <div className={style.eventWrap}>
               <h2>2월 이벤트</h2>
               <h3>EMART24가 준비한 이달의 행사상품을 만나보세요.</h3>
-              {eventList && eventList.map(prod => 
-                        <div className={style.thumbnail}>
+              <div className={style.container}>
+              {eventList && eventList.map((prod) => (
+                        <div className={style.thumbnail}>  
                         <div id="container">
+                        <Link to={`/eventdetail/${prod.id}`}>
                             <img src={prod.thumbnail} alt="event01" />
+                           </Link>
                         </div>
+                       
                           <div className={style.info}>
                           <p className="product_title">{prod.date}</p>
                         <p className="product_title">{prod.name}</p>
                         </div>
                       </div>
-                )}
+                ))}
+                </div>
                  </div>
             </section>
         );

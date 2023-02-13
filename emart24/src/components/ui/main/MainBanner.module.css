@@ -4,35 +4,34 @@
 
 
 .slider{
-  background-color: aquamarine;
+  background-color :#FFC23C;
   width: 670px;
   height: 320px;
   position: relative;
   margin:  0 0 0 0px;
   padding: 0;
-  border-radius: 20px;
   overflow: hidden;
+  border-radius: 20px;
 }
 
-.slider input {
+.slider input[type=radio] {
   display: none;
 }
 
-.img{
-  position: absolute;
+.ul_imgs{
   padding: 0;
   margin: 0;
-}
-.img li{
+} 
+
+.ul_imgs li{
   position: absolute;
-  left: 0px;
+  left: 640px;
   transition-delay: 1s;
-  list-style: none;
   padding: 0;
   margin: 0;
 }
 
-.bullet {
+.bullets {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
@@ -48,7 +47,7 @@
   cursor: pointer;
 }
 
-.bullet label {
+.slider input[type=radio]:nth-child(1):checked~.bullets>label:nth-child(1){
   background-color: #fff;
 }
 .slider input[type=radio]:nth-child(2):checked~.bullets>label:nth-child(2){
@@ -59,18 +58,16 @@
 }
 
 
-.slider input ul img>li {
+.slider input[type=radio]:nth-child(1):checked~ul.imgs>li:nth-child(1){
   left: 0;
   transition: 0.5s;
   z-index:1;
 }
-
 .slider input[type=radio]:nth-child(2):checked~ul.imgs>li:nth-child(2){
   left: 0;
   transition: 0.5s;
   z-index:1;
 }
-
 .slider input[type=radio]:nth-child(3):checked~ul.imgs>li:nth-child(3){
   left: 0;
   transition: 0.5s;

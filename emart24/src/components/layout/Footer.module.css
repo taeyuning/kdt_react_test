@@ -5,12 +5,13 @@
 }
 
 .footerWrap .companyName {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: 700;
-  color: #222;
+  color: #494949;
   padding-bottom: 40px;
 }
 
 .footerWrap p {
   line-height: 0.8;
+  color: #494949;
 }

@@ -1,7 +1,10 @@
 .mainWrap{
-    display: flex;
-  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  width: 1500px;
   height: 100%;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
+

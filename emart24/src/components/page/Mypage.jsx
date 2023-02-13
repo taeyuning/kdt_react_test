@@ -3,7 +3,7 @@ import style from "../page/Mypage.module.css";
 
 function Mypage() {
   return (
-    <section className={style.mypage}>
+    <section className={style.mypageWrap}>
       <div className={style.container}>
         <div className={style.box1}>
           <h1> 김태윤님 반갑습니다 </h1>
@@ -23,7 +23,7 @@ function Mypage() {
         <div className={style.box2}>
           <li> </li>
         </div>
-        {/* <div className={style.box3}></div> */}
+         {/* <div className={style.box3}></div> */}
       </div>
     </section>
   );

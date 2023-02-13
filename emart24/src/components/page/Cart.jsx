@@ -3,11 +3,12 @@ import style from '../page/Cart.module.css';
 
 
 function Cart() {
-    return ( 
-        
 
-        <>장바구니 지롱</>
-           
+
+    return ( 
+    
+        <h1 className={style.Title}>장바구니</h1>
+
             );
        }
        

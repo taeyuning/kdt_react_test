@@ -1,12 +1,12 @@
 
-.productDetailWrap{
+.eventDetailWrap{
     width: 1200px;
     margin: 0 auto;
     margin-top: 200px;
     align-items: center;
   }
   
-.productDetailWrap h1{
+.eventDetailWrap h1{
   margin: 250px 0 0px 0px;
   font-size: 2.5rem;
   font-weight: 1000;
@@ -14,20 +14,23 @@
 }
 
 
-.productDetailWrap img {
+/* .eventDetaillWrap p {
+    margin: 20px 0 0px 0px;
+    text-align: center;
+    font-size: 1.2rem;
+  } */
+
+
+.eventDetailWrap img {
   margin: 100px 0 0px 0px;
-  width: 500px;
-  height: 500px;
-  margin-left: 28%;
+  width: 100%;
+  height: 100%;
+  margin-left: 0%;
   border: 10px solid;
   border-color: #ffc23c;
   padding: 3%;
 }
 
-.productDetailWrap p  {
-  margin: 20px 0 0px 0px;
-  text-align: center;
-  font-size: 1.2rem;
-}
+
 
 

@@ -10,6 +10,7 @@ import Footer from './components/layout/Footer';
 
 import Cart from './components/page/Cart';
 import Event from './components/page/Event';
+import EventDetail from './components/page/EventDetail';
 import EventProduct from './components/page/EventProduct';
 import EventProductDetail from './components/page/EventProductDetail';
 import Main from './components/page/Main';
@@ -25,6 +26,7 @@ function App() {
           <Route path='/' element={<Main />} />
           <Route path='/cart' element={<Cart />} />
           <Route path='/event' element={<Event />} />
+          <Route path='/eventdetail/:id' element={<EventDetail />} />
           <Route path='/eventproduct' element={<EventProduct />} />
           <Route path='/eventproductdetail/:id' element={<EventProductDetail />} />
           <Route path='/mypage' element={<Mypage />} />

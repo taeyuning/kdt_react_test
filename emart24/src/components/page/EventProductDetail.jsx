@@ -20,11 +20,17 @@ function EventProductDetail() {
 
   return (
     <>
+
     {
       productDetail && 
       <div className={style.productDetailWrap}>
-        <p>{productDetail.name}</p>
+      <h1>{productDetail.name}</h1>
         <img src={productDetail.thumbnail} alt="product01" />
+        {/* <p>{productDetail.name}</p> */}
+        <p>{productDetail.price}원</p>
+        <p>{productDetail.brand}</p>
+        <p>{productDetail.description}</p>
+
       </div>
     }
     </>

@@ -7,12 +7,14 @@ import Form from "react-bootstrap/Form";
 function BasicExample() {
   return (
     <Form id={style.formWrap}>
-       
       <div className={style.select}>
-        <button1 className='btn'>아이디</button1>
-        <button2 className='btn'> emart24 앱</button2>
-        
+        <button1 className="btn">아이디</button1>
+        <button2 className="btn"> emart24 앱</button2>
       </div>
+      <ul className={style.ul}>
+      <li>회원가입</li>
+      <li> 비밀번호 찾기</li>
+      </ul>
 
       <Form className={style.form}>
         <Form.Group className="mb-3" controlId="formBasicEmail">
@@ -35,7 +37,7 @@ function BasicExample() {
           <Form.Check
             className={style.checkbox}
             type="checkbox"
-            label="로그인 상태 유지"
+            label="아이디 저장"
           />
         </Form.Group>
 
