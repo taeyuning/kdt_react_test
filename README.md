@@ -13,6 +13,7 @@
 - npm install react-bootstrap bootstrap
 - npm install recoil
 - npm i recoil-persist
+- npm install json-server
 
 
 
