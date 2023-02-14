@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 
-import style from "./EventProductDetail.module.css";
+import style from "./ProductDetail.module.css";
 
-function EventProductDetail() {
+function ProductDetail() {
   const { id } = useParams();
   const [productDetail, setProductDetail] = useState();
 
@@ -41,4 +41,4 @@ function EventProductDetail() {
 
 
 
-export default EventProductDetail;
+export default ProductDetail;

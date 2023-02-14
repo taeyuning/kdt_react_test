@@ -17,13 +17,16 @@ function Mypage() {
           <button2 className="btn"> 개인정보 변경 </button2>
           <button3 className="btn"> 비밀번호 변경 </button3>
         </div>
-        <h8> 구매내역 (최근 1개월) </h8>
-        {/* <h9> 이벤트 참여 내역 </h9> */}
-
-        <div className={style.box2}>
-          <li> </li>
+        <ul>
+          <li> 구매내역 (최근 1개월) </li>
+          <li> 이벤트 참여 내역 </li>
+        </ul>
+        <div className={style.container2}>
+          <div className={style.box2}>
+            <li> </li>
+          </div>
+          <div className={style.box3}></div>
         </div>
-         {/* <div className={style.box3}></div> */}
       </div>
     </section>
   );

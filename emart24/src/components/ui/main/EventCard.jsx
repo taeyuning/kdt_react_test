@@ -1,7 +1,7 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Card from 'react-bootstrap/Card';
 import CardGroup from 'react-bootstrap/CardGroup';
-
 import style from '../main/EventCard.module.css';
 
 
@@ -15,7 +15,9 @@ function EventCard() {
         </div>
         <CardGroup id={style.CardWrap}>
                 <Card className={style.Card}>
+                    <Link to="/eventdetail/2">
                     <Card.Img variant="top" src="https://emart24.co.kr/image/NTAwOA==" />
+                    </Link>
                     <Card.Body>
                         <Card.Title className={style.CardTitle}>1+1 발렌타인 이벤트</Card.Title>
                         <Card.Text  className={style.CardText}>
@@ -25,7 +27,9 @@ function EventCard() {
 
                 </Card>
                 <Card>
+                <Link to="/eventdetail/3">
                     <Card.Img variant="top" src="https://emart24.co.kr/image/NDg1OA==" />
+                    </Link>
                     <Card.Body>
                         <Card.Title className={style.CardTitle}>2월 매장/카드행사</Card.Title>
                         <Card.Text className={style.CardText}>
@@ -35,7 +39,9 @@ function EventCard() {
 
                 </Card>
                 <Card>
+                <Link to="/eventdetail/4">
                     <Card.Img variant="top" src="https://emart24.co.kr/image/NDk0MA==" />
+                    </Link>
                     <Card.Body>
                         <Card.Title className={style.CardTitle}>SKYPASS 적립하고 파리가자!</Card.Title>
                         <Card.Text  className={style.CardText}>

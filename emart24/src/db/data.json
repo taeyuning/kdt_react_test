@@ -114,6 +114,14 @@
     "events" : [
       {
         "id" : 1,
+        "name" : "발렌타인데이 단 하루, 레드 와인 1종 10,800원",
+        "thumbnail": "https://emart24.co.kr/image/NTA3OQ==",
+        "date":"2023.02.14~2023.02.14",
+        "eventProductList" : [ 1,2,3,4,5,6,7,8,9,10 ],
+        "description" : "https://emart24.co.kr/image/NTA3Nw=="
+      },
+      {
+        "id" : 2,
         "name" : "1+1 발렌타인 이벤트",
         "thumbnail": "https://emart24.co.kr/image/NTAwOA==",
         "date":"2023.02.08~2023.02.19",
@@ -122,7 +130,7 @@
       },
   
       {
-        "id" : 2,
+        "id" : 3,
         "name" : "2월 매장/카드행사",
         "thumbnail": "https://emart24.co.kr/image/NDg1OA==",
         "date":"2023.02.01~2023.02.28",
@@ -131,7 +139,7 @@
       },
 
       {
-        "id" : 3,
+        "id" : 4,
         "name" : "SKYPASS 적립하고 파리가자!",
         "thumbnail": "https://emart24.co.kr/image/NDk0MA==",
         "date":"2023.02.01~2023.03.17",
@@ -139,7 +147,7 @@
         "description" : "https://emart24.co.kr/image/MzM0Ng=="
       },
       {
-        "id" : 4,
+        "id" : 5,
         "name" : "이마트24 대한항공 SKYPASS 마일리지 적립 론칭",
         "thumbnail": "https://emart24.co.kr/image/NDk0Mg==",
         "date":"2023.02.01~2023.03.17",

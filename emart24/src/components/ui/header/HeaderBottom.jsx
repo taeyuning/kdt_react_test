@@ -18,7 +18,7 @@ function HeaderBottom() {
               <li> <Link to='/mypage'> 마이 페이지</Link></li>
               <li> <Link to='/cart'> 장바구니 </Link></li>
               <li> <Link to='/event'> 이벤트 </Link></li>
-              <li> <Link to='/eventproduct'> 행사 상품</Link></li>
+              <li> <Link to='/product'> 행사 상품</Link></li>
               <li> <Link to='/store'> 매장 찾기 </Link></li>
           </ul>
         </nav>

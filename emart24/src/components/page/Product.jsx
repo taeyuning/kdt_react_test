@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
-import style from "./EventProduct.module.css";
+import style from "./Product.module.css";
 
-function EventProduct() {
+function Product() {
   // products data 가져오기
   const [productList, setProductList] = useState();
 
@@ -28,7 +28,7 @@ function EventProduct() {
               <div>
                 <div className={style.box}>
                   <div className={style.thumbnail}>
-                    <Link to={`/eventproductdetail/${prod.id}`}>
+                    <Link to={`/productdetail/${prod.id}`}>
                       <img src={prod.thumbnail} alt="product01" />
                     </Link>
                   </div>
@@ -47,4 +47,4 @@ function EventProduct() {
   );
 }
 
-export default EventProduct;
+export default Product;
